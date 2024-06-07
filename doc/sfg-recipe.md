@@ -26,8 +26,8 @@ This recipe is for deploying the B2BI Sterling File Gateway in a single namespac
 
     | Component | Access Mode | IBM Cloud | OCS/ODF |
     | --- | --- | --- | --- |
-    | DB2 | RWO | ibmc-block-gold | ocs-storagecluster-cephfs |
-    | MQ | RWO | ibmc-block-gold | ocs-storagecluster-cephfs |
+    | DB2 | RWO | ocs-storagecluster-cephfs | ocs-storagecluster-cephfs |
+    | MQ | RWO | ocs-storagecluster-cephfs | ocs-storagecluster-cephfs |
     | SFG | RWX | ocs-storagecluster-cephfs | ocs-storagecluster-cephfs |
 
 1. Edit the Services layer `${GITOPS_PROFILE}/2-services/kustomization.yaml` and install Sealed Secrets by uncommenting the following line, **commit** and **push** the changes and refresh the `services` Application in the ArgoCD console.

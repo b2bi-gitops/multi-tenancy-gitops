@@ -32,7 +32,7 @@ In particular, these infra resources are assumed to have already been deployed (
 
 | Component | Access Mode | IBM Cloud | OCS/ODF |
 | --- | --- | --- | --- |
-| DB2 | RWO | ibmc-block-gold | ocs-storagecluster-cephfs |
+| DB2 | RWO | ocs-storagecluster-cephfs | ocs-storagecluster-cephfs |
 | PEM | RWX | ocs-storagecluster-cephfs | ocs-storagecluster-cephfs |
 
 1. Clone the services repo for GitOps: open a terminal window and clone the `multi-tenancy-gitops-services` repository under your Git Organization.
