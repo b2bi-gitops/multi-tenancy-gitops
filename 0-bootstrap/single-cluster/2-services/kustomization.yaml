@@ -15,12 +15,6 @@ resources:
 #- argocd/instances/sterling-secure-proxy-cm-instance.yaml
 #- argocd/instances/sterling-secure-proxy-engine-instance.yaml
 
-# Required for IBM MQ
-#- argocd/instances/openldap.yaml
-# Required for IBM ACE, IBM MQ
-#- argocd/operators/cert-manager.yaml
-#- argocd/instances/cert-manager-instance.yaml
-
 # Sealed Secrets
 # - argocd/instances/sealed-secrets.yaml
 
