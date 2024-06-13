@@ -62,7 +62,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/gitops-sterling-rxo/multi-tenancy-gitops-services.git
+      value: https://github.com/b2bi-gitops/multi-tenancy-gitops-services.git
     - op: add
       path: /spec/source/targetRevision
       value: master
@@ -73,7 +73,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/gitops-sterling-rxo/multi-tenancy-gitops-apps.git
+      value: https://github.com/b2bi-gitops/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
       value: master

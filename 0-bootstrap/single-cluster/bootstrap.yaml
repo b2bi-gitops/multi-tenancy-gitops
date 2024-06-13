@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: 0-bootstrap/single-cluster
-    repoURL: https://github.com/gitops-sterling-rxo/multi-tenancy-gitops.git
+    repoURL: https://github.com/b2bi-gitops/multi-tenancy-gitops.git
     targetRevision: master
   syncPolicy:
     automated:
